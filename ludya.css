@@ -1,0 +1,80 @@
+html{
+    position: relative;
+}
+div {
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+#home{
+    background-color: #eeee;
+    text-align: center;
+}
+#home img{
+    width: 250px;
+    border: 2px solid #666;
+    text-align: center;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid var(--#eeee)
+}
+hr {
+    width: 250px;
+    border-top: 3px solid #c62828;
+}
+body {
+    background-color: #eeee;
+    color: black;
+    width: 80%;
+    margin: auto;
+}
+nav {
+    list-style-type: none;
+    margin: auto;
+    padding :0px 15px;
+    overflow: hidden;
+    background-color: #002171;
+    color: #c2c1bb;
+    position: relative;
+    }
+li a {
+    display: block;
+    color: #AEADA5;
+    text-align: center;
+    padding: 25px 25px 30px;
+    text-decoration: none;
+    font-size: large;
+    }
+h2{
+    text-align: center;
+}
+#about{
+    background-color: #eeee;
+}
+#contact{
+    background-color: #002171;
+    color: #ffff;
+}
+#contact form{
+    font-size: small;
+}
+#tabel{
+    text-align-last: center;
+    margin:auto;
+}
+#tabel img{
+    width: 80%;
+    padding: 5px 10px;
+}
+button{
+    padding: 10px 10px;
+}
+section{
+    min-height:600px;
+}
+@media screen and (min-width: 100px) {
+    .row {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
